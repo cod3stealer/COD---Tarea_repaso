@@ -6,11 +6,14 @@ public class adivinaNumero {
     public static void main(String[] args) {
         // Declaro una variable de tipo INT que recoge un valor pasado por pantalla con
         // JOptionPane el cual es String por defecto así que lo paso a INT con Integer.parseInt
+        /*
+         * modificacion
+         */
         int numeroAdivinar = Integer.parseInt(JOptionPane.showInputDialog("Xogador 1: Teclea o número a adiviñar (entre 1 e 50):"));
         while (numeroAdivinar < 1 || numeroAdivinar > 50) {
             numeroAdivinar = Integer.parseInt(JOptionPane.showInputDialog("Xogador 1: Teclea o número a adiviñar (entre 1 e 50):"));
         }
-        int maxIntentos = Integer.parseInt(JOptionPane.showInputDialog("Xogador 1: Introduce o número máximo de intentos:"));
+        int maxIntentos = Integer.parseInt(JOptionPane.showInputDialog("modasdaisdia: Introduce o número máximo de intentos:"));
         while (maxIntentos < 1 || maxIntentos > 50) {
             maxIntentos = Integer.parseInt(JOptionPane.showInputDialog("Xogador 1: Introduce o número máximo de intentos:"));
         }
